@@ -58,7 +58,7 @@ a {
   }
   
   .text_block table {
-    border-spacing: 0 10px;
+    border-spacing: 0 15px;
     width: 100%
     }
     
@@ -159,7 +159,6 @@ a {
   
   .reg_container {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 40px;
   }
@@ -174,6 +173,7 @@ a {
   .categories_container h2 {
     color: #1C4F5B;
     font-size: 18px;
+    margin-bottom: 16px;
     margin: 0 0 10px 0;
     line-height: 24px;
     font-weight: 600;
@@ -197,6 +197,7 @@ a {
   .category {
     background-color: #fff;
     cursor: pointer;
+    height: 72px;
     display: flex;
     border-radius: 17px;
     align-items: center;
@@ -224,6 +225,7 @@ a {
   
   .categories_container p {
     color: #1C4F5B;
+    margin: 15px 0;
     text-align: center;
   }
   
@@ -274,12 +276,13 @@ a {
     padding: 14px 25px 14px 15px;
     border-radius: 17px;
     background-color: #fff;
+    height: 210px;
     gap: 20px;
   }
   
   .bonus h3 {
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 23px;
     margin-bottom: 12px;
     line-height: 28px;
