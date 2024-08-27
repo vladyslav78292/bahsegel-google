@@ -62,8 +62,6 @@ const lastBonuses = [];
 const firstActive = document.getElementsByClassName('active');
 const firstActiveBonus = document.getElementsByClassName('active_bonuses');
 
-console.log([...bonuses]);
-
 [...selector].forEach(function(category) {
   category.addEventListener('click', function() {
     [...firstActive].forEach(function(active) {
@@ -98,3 +96,72 @@ console.log([...bonuses]);
   });
 });
 
+const openFirstWindow = document.querySelector('.openFirst');
+const firstWindow = document.querySelector(".firstWindow");
+
+openFirstWindow.addEventListener('click', () => {
+    firstWindow.showModal();
+});
+
+const openSecondWindow = document.querySelector('.openSecond');
+const secondWindow = document.querySelector(".secondWindow");
+
+openSecondWindow.addEventListener('click', () => {
+  secondWindow.showModal();
+});
+
+const openThirdWindow = document.querySelector('.openThird');
+const thirdWindow = document.querySelector(".thirdWindow");
+
+openThirdWindow.addEventListener('click', () => {
+  thirdWindow.showModal();
+});
+
+const openFourthWindow = document.querySelector('.openFourth');
+const fourthWindow = document.querySelector(".fourthWindow");
+
+openFourthWindow.addEventListener('click', () => {
+  fourthWindow.showModal();
+});
+
+const openFifthWindow = document.querySelector('.openFifth');
+const fifthWindow = document.querySelector(".fifthWindow");
+
+openFifthWindow.addEventListener('click', () => {
+  fifthWindow.showModal();
+});
+
+const openSixthWindow = document.querySelector('.openSixth');
+const sixthWindow = document.querySelector(".sixthWindow");
+
+openSixthWindow.addEventListener('click', () => {
+  sixthWindow.showModal();
+});
+
+const openSeventhWindow = document.querySelector('.openSeventh');
+const seventhWindow = document.querySelector(".seventhWindow");
+
+openSeventhWindow.addEventListener('click', () => {
+  seventhWindow.showModal();
+});
+
+const openEighthWindow = document.querySelector('.openEighth');
+const eighthWindow = document.querySelector(".eighthWindow");
+
+openEighthWindow.addEventListener('click', () => {
+  eighthWindow.showModal();
+});
+
+const openNinthWindow = document.querySelector('.openNinth');
+const ninthWindow = document.querySelector(".ninthWindow");
+
+openNinthWindow.addEventListener('click', () => {
+  ninthWindow.showModal();
+});
+
+const openTenthWindow = document.querySelector('.openTenth');
+const tenthWindow = document.querySelector(".tenthWindow");
+
+openTenthWindow.addEventListener('click', () => {
+  tenthWindow.showModal();
+});
