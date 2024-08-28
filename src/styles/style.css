@@ -767,12 +767,8 @@ a {
     white-space: wrap;
   }
 
-  .text_block table tbody tr td {
-    font-size: 14px;
-  }
-
-  .buttons a{
-    font-size: 13px;
+  .text_block table tbody tr td, .row p {
+    font-size: 15px;
   }
 
   .selection_container {
