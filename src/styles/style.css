@@ -609,11 +609,11 @@ a {
   text-align: center;
 }
 
-.btn-close-circle, .dropdown-wrapper__close, .modal-header__close, .sidebar__content .close-sidebar {
+.modal-header__close {
   position: fixed;
   width: 48px;
   height: 48px;
-  top: 16px;
+  top: 20px;
   right: 18px;
   padding: 0;
   border: none;
@@ -623,18 +623,11 @@ a {
   cursor: pointer;
 }
 
-.btn-close-circle:before, .dropdown-wrapper__close:before, .modal-header__close:before, .sidebar__content .close-sidebar:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  content: "";
-  cursor: pointer;
-  display: block;
-  width: 15px;
-  height: 15px;
-  background: url(../images/cross.svg) no-repeat;
-  background-size: cover;
+.cross {
+  height: 20px !important;
+  width: 20px !important;
+  position: relative;
+  top: 2px;
 }
 
 .mobile_footer_img {
@@ -738,7 +731,7 @@ a {
   }
 
   footer {
-    padding: 10px 25px;
+    padding: 17px 33px 25px;
   }
 
   .bonus {
